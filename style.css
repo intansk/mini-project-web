@@ -9,7 +9,6 @@
   --primaryIconColor:#9a9b87;
   --sectionPadding: 6rem 0;
   --itemBorderRadius: 0.7rem;
-  --backgroundColor: #dbd0c5;
   --midnight: #162a2c;
   --forestGreen: #5e6c5b;
   --freshCream: #f4efe6;
@@ -102,14 +101,12 @@ a {
   padding: 1rem 0;
   position: fixed;
   width: 3000px;
-  background: var(--backgroundColor);
 }
 
 nav ul {
   list-style: none;
   display: flex;
   gap: 3rem;
-  background: var(--backgroundColor);
 }
 
 nav ul li {
@@ -120,7 +117,6 @@ nav ul li {
 
 nav ul li a {
   color: var(--primaryTextColor);
-  background: var(--backgroundColor);
 }
 
 
@@ -360,21 +356,14 @@ nav ul li a {
 footer {
   padding: 4rem 0;
   text-align: center;
-  background: var(--backgroundColor);
 }
-
-footer p {
-  background: var(--backgroundColor);
-} 
 
 .footer-icons {
   margin-bottom: 1rem;
-  background: var(--backgroundColor);
 }
 
 .footer-icons a {
   margin: 0 0.5rem;
-  background: var(--backgroundColor);
 }
 
 .footer-icons svg {
